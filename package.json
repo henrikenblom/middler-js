@@ -1,0 +1,39 @@
+{
+  "name": "middler",
+  "version": "1.0.0",
+  "description": "Request router",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "node dist/server.js",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w",
+    "build": "npm run build-ts && npm run tslint",
+    "tslint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "author": "Henrik Enblom",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.3.0",
+    "errorhandler": "latest",
+    "morgan": "latest",
+    "lusca": "latest"
+  },
+  "devDependencies": {
+    "@types/async": "^2.0.45",
+    "@types/body-parser": "^1.16.8",
+    "@types/compression": "0.0.33",
+    "@types/errorhandler": "0.0.32",
+    "@types/express": "^4.0.35",
+    "@types/express-session": "^1.15.6",
+    "@types/lusca": "^1.5.0",
+    "@types/morgan": "^1.7.35",
+    "tslint": "^5.9.1",
+    "typescript": "^2.6.2"
+  }
+}
