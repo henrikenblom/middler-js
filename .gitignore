@@ -116,3 +116,4 @@ fabric.properties
 .DS_Store
 /.tscache/
 /dist/
+!/.idea/middler-js.iml
