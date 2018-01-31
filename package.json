@@ -1,8 +1,12 @@
 {
   "name": "middler",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Request router",
   "main": "dist/server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henrikenblom/middler-js"
+  },
   "scripts": {
     "start": "npm run serve",
     "serve": "node dist/server.js",
