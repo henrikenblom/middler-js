@@ -1,3 +1,4 @@
 node_modules/
 middler-js.iml
 /.idea/
+/dist/
